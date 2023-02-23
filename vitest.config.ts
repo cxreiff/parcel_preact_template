@@ -6,12 +6,9 @@ export default defineConfig({
   define: {
     "import.meta.vitest": "undefined",
   },
-  plugins: [
-    preact(),
-  ],
+  plugins: [preact()],
   test: {
     environment: "happy-dom",
-    // setupFiles: ["./vitest.setup.ts"],
     includeSource: ["src/**/*.{ts,tsx}"],
     coverage: {
       reporter: ["text-summary", "text"],
@@ -20,4 +17,3 @@ export default defineConfig({
     restoreMocks: true,
   },
 });
-
