@@ -1,5 +1,5 @@
 {
-  "name": "parcel-preact-template",
+  "name": "parcel_preact_template",
   "source": "src/index.html",
   "type": "module",
   "scripts": {
